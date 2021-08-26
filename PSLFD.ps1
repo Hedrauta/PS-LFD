@@ -52,6 +52,7 @@ function compare_ips ($a,$b) {
         }
     sleep -Milliseconds 300
     }
+
 #Ansatz Loop
 
 While (1) {
@@ -59,6 +60,7 @@ While (1) {
     
     if ($fwav -eq $true) { 
         get_fw_ips
+        $fwf = $false
         }
     else {
         "Erstelle nun Firewall-Regel mit neuen IPs"
