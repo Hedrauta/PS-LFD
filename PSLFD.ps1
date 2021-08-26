@@ -8,7 +8,6 @@ $host.UI.RawUI.WindowTitle = "PSLFD: launching"
 ""
 "Erfasse Firewall-Regel"
 ""
-$host.UI.RawUI.WindowTitle = "PSLFD: launching"
 $FWR1 = Get-NetFirewallRule -Name "PSLFD" -ErrorAction Ignore
 $fwav = $false
 if ($FWR1 -eq $null) {
