@@ -1,6 +1,6 @@
 # PS-LFD
 
-Simple LFD (Login Failure Daemon for Microsoft Powershell... May work only on PS5.1+
+Simple LFD (Login Failure Daemon) for Microsoft Powershell... May work only on PS5.1+
 
 First commit only german language and preset settings (7 Days ban after 2 failed logins, 10 sec sleep between check).
 
