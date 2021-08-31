@@ -2,7 +2,9 @@
 
 Simple LFD (Login Failure Daemon) for Microsoft Powershell... May work only on PS5.1+
 
-First commit only german language and preset settings (7 Days ban after 2 failed logins, 10 sec sleep between check).
+Settings in ps1-file ( the 3 variables on the top )
+
+~~First commit only german language and preset settings (7 Days ban after 2 failed logins, 10 sec sleep between check).~~
 
 WIP:
 - Ask Settings on Startup ( number of failed logins, time of ban, sleep-duration between checkups, permanent ban?)
